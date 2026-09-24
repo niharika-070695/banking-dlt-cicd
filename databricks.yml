@@ -1,0 +1,12 @@
+bundle:
+  name: banking-dlt-cicd
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://adb-7405615448698436.16.azuredatabricks.net

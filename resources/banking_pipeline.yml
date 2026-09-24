@@ -1,0 +1,19 @@
+resources:
+  pipelines:
+    banking_dlt_pipeline:
+      name: banking_dlt_pipeline_dab
+
+      catalog: banking
+      schema: dab_dev
+
+      serverless: true
+
+      libraries:
+        - file:
+            path: ../src/bronze.py
+
+        - file:
+            path: ../src/silver.py
+
+        - file:
+            path: ../src/gold.py
