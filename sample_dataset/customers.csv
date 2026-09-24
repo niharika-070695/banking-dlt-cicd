@@ -1,0 +1,9 @@
+customer_id,customer_name,city,state,join_date,customer_status
+C001,Anita Sharma,Dallas,TX,2024-01-15,ACTIVE
+C002,Rahul Mehta,Austin,TX,2023-11-02,ACTIVE
+C003,Emily Johnson,Chicago,IL,2025-03-10,ACTIVE
+C004,Michael Brown,Houston,TX,2022-07-21,ACTIVE
+C005,Sophia Davis,Phoenix,AZ,2024-09-05,ACTIVE
+C006,Daniel Wilson,Denver,CO,2025-06-12,INACTIVE
+C007,Priya Reddy,Irving,TX,2023-04-18,ACTIVE
+C008,James Miller,Seattle,WA,2024-12-01,ACTIVE
