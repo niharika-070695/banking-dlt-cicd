@@ -32,3 +32,6 @@ jobs:
 
       - name: Deploy Databricks bundle
         run: databricks bundle deploy -t cicd
+
+      - name: Run banking pipeline
+        run: databricks bundle run banking_dlt_pipeline -t cicd
