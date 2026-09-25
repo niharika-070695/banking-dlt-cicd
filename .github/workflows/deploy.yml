@@ -28,4 +28,7 @@ jobs:
         run: databricks current-user me
 
       - name: Validate Databricks bundle
-        run: databricks bundle validate -t dev
+        run: databricks bundle validate -t cicd
+
+      - name: Deploy Databricks bundle
+        run: databricks bundle deploy -t cicd

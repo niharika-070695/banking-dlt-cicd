@@ -10,3 +10,14 @@ targets:
     default: true
     workspace:
       host: https://adb-7405615448698436.16.azuredatabricks.net
+
+  cicd:
+    mode: development
+    workspace:
+      host: https://adb-7405615448698436.16.azuredatabricks.net
+
+    resources:
+      pipelines:
+        banking_dlt_pipeline:
+          name: banking_dlt_pipeline_cicd
+          schema: dab_cicd
