@@ -26,3 +26,6 @@ jobs:
 
       - name: Test Databricks authentication
         run: databricks current-user me
+
+     - name: Validate Databricks bundle
+       run: databricks bundle validate -t dev
